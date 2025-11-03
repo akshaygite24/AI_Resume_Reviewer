@@ -32,10 +32,11 @@ AI_Resume_Reviewer/
 ├── prompt/
 │   └── reviewer_prompt.txt    
 ├── resumes/                   
-│   ├── data_analyst_resume.txt
-│   ├── developer_resume.txt
-│   └── project_manager_resume.txt
-├── .env                       
+│   ├── Data_Analyst_Sample_Resume.pdf
+│   ├── Data_Scientist_Sample_Resume.pdf
+│   ├── Full_Stack_Developer_Sample_Resume.pdf
+│   └── ML_Sample_Resume.pdf
+├── .env              
 ├── requirements.txt
 └── README.md
 ```
