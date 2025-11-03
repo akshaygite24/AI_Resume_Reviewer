@@ -19,7 +19,8 @@ def load_prompt():
 def review_resume(resume_text, job_role):
     base_prompt = load_prompt()
     final_prompt = base_prompt.replace("{{RESUME_TEXT}}", resume_text)
-    final_prompt = base_prompt.replace("{{JOB_ROLE}}", job_role)
+    final_prompt = final_prompt.replace("{{JOB_ROLE}}", job_role)
+    print(final_prompt)
 
     response = model.generate_content(final_prompt)
     return response.text
